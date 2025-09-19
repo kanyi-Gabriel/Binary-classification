@@ -8,8 +8,19 @@ This project is a **binary image classification** task where the goal is to dist
 
 The dataset is organized as follows:
 ```
+Binary-classification/
+│── Notebooks/                     
+│   ├── project_file.ipynb          # Main notebook with model training & evaluation
+│           
+│
+│── data_binary/                    
+│   └── data/
+│       ├── antelope/               
+│       ├── blanks/                 
+│
+│── .gitattributes                  
+│── .gitignore                      
+│── LICENSE
+├── requirements.txt                      
+└── README.md                       
 
-data_binary/
-│── data/
-    ├── antelope/   # Contains images of antelopes
-    ├── blanks/     # Contains blank/empty images
